@@ -1,0 +1,118 @@
+/* Name:Nirjal Kansakar
+   id: 2226668 */
+body {  
+  background-repeat: no-repeat;
+  background-size: fill;
+  overflow:hidden;
+  align-items: center;
+  height: 100%;
+  margin-left: 2em;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 1.2rem;
+}
+
+.card {
+  position: relative;
+  background: #000000b0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 1297px;
+  height: 625px;
+  margin: 1em;
+  top: 25px;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-left: 19%;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+}
+
+input.search-bar {
+  border: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 100%;
+  width: calc(100% - 100px);
+}
+
+.city{
+  position: relative;
+  top:30px;
+  margin-bottom: 1.5em;
+}
+
+.temp {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 350%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.humidity {
+  position: relative;
+  left: 800px;
+  bottom: 250px;
+}
+
+.wind {
+  position: relative;
+  left: 800px;
+  bottom: 200px;
+}
+
+.deg{
+  position: relative;
+  left: 800px;
+  bottom: 150px;
+}
+
+.pressure{
+  position: relative;
+  left: 800px;
+  bottom: 100px;
+}
